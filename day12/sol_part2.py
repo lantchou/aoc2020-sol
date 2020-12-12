@@ -54,10 +54,4 @@ with open("input.txt") as f:
             x_wayp = x_ship + x_diff
             y_wayp = y_ship + y_diff
 
-        print(ins)
-        print(f"ship:     ({x_ship}, {y_ship})")
-        print(f"waypoint: ({x_wayp}, {y_wayp})")
-        print()
-
-
     print(abs(x_ship) + abs(y_ship))
