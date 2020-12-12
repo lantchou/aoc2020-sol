@@ -5,7 +5,6 @@ def rotate_point(x, y, angle):
     """
     Rotate a point about the origin by a given angle.
     """
-
     angle = radians(angle)
     s = int(sin(angle))
     c = int(cos(angle))
